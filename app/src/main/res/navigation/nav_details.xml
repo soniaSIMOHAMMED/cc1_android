@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_details.xml"
+    app:startDestination="@id/productDetailsSummaryFragment">
+
+    <fragment
+        android:id="@+id/productDetailsSummaryFragment"
+        android:name="com.example.cc1_android.ProductDetailsSummaryFragment"
+        android:label="ProductDetailsSummaryFragment" />
+
+    <fragment
+        android:id="@+id/productDetailsNutritionFragment"
+        android:name="com.example.cc1_android.ProductDetailsNutritionFragment"
+        android:label="ProductDetailsNutritionFragment" />
+    <fragment
+        android:id="@+id/productDetailsNutritionalValuesFragment"
+        android:name="com.example.cc1_android.ProductDetailsNutritionalValuesFragment"
+        android:label="ProductDetailsNutritionalValuesFragment" />
+
+
+
+</navigation>

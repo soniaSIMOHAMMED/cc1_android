@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mes Produits</string>
+    <string name="details">Détails</string>
+
+
+    <string name="barcode">Code barres : 3083680085304</string>
+    <string name="quantity">Quantité : 400 g (280 g net égoutté)</string>
+    <string name="sold_in">Vendu en : France, Japon, Suisse</string>
+    <string name="ingredients">Ingrédients : Petits pois 66%, eau, garniture 2.8% (salade, ognion grelot), sucre, sel, arome naturel</string>
+    <string name="allergenic_substances">Substances allergènes : Aucune</string>
+    <string name="additives">Additifs : Aucun</string>
+
+    <string name="details_title">repères nutritionneles pour 100g</string>
+    <string name="nutrition_facts_energy">Énergie %1$s kj</string>
+    <string name="nutrition_facts_lipids">Matières grasses / Lipides 0.8 g</string>
+    <string name="nutrition_facts_fatty_acid">Acides gras saturés 0.1 g</string>
+    <string name="nutrition_facts_carbohydrates">Glucides 5.2 g</string>
+    <string name="nutrition_facts_dietary_fiber">Fibres alimentaires %1$s </string>
+    <string name="nutrition_facts_protein">Protéines %1$s g</string>
+    <string name="nutrition_facts_salt">Sel 0.75 g</string>
+    <string name="nutrition_facts_sodium">Sodium %1$s g</string>
+
+    <string name="nutriscore">Nutriscore : %1$s</string>
+    <string name="calories">%1$s kCal/part</string>
+    <string name="scannez_un_produit">SCANNEZ UN PRODUIT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

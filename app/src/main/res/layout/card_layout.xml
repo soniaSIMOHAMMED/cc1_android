@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_margin="15dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="3dp"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_marginBottom="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="248dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+        <ImageView
+            android:id="@+id/register_image"
+            android:layout_width="18dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:src="@drawable/ic_nav_bar_bookmarks"
+            app:layout_constraintTop_toBottomOf="@id/placeholder"
+            app:layout_constraintRight_toRightOf="@id/placeholder"/>
+        <TextView
+            android:id="@+id/petits_pois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:text="Petits pois"
+            app:layout_constraintTop_toBottomOf="@id/placeholder"
+            app:layout_constraintLeft_toLeftOf="@id/placeholder" />
+        <TextView
+            android:id="@+id/cassegrain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:text="Cassegrain"
+            app:layout_constraintTop_toBottomOf="@id/petits_pois"
+            app:layout_constraintLeft_toLeftOf="@id/petits_pois"
+            />
+        <ImageView
+            android:id="@+id/ranking"
+            android:layout_width="25dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_ranking"
+            app:layout_constraintTop_toBottomOf="@id/cassegrain"
+            app:layout_constraintLeft_toLeftOf="@id/cassegrain"/>
+
+        <TextView
+            android:id="@+id/nutriscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="14dp"
+            android:text="Nutriscore: A"
+            android:textStyle="italic"
+            app:layout_constraintLeft_toRightOf="@id/ranking"
+            app:layout_constraintTop_toBottomOf="@id/cassegrain"
+            />
+
+        <ImageView
+            android:id="@+id/caloriesImg"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_calories"
+            app:layout_constraintTop_toBottomOf="@id/cassegrain"
+            app:layout_constraintLeft_toRightOf="@id/nutriscore"/>
+
+        <TextView
+            android:id="@+id/calories"
+            android:layout_width="100dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14dp"
+            android:text="234kCal/part"
+            android:textStyle="italic"
+            app:layout_constraintLeft_toRightOf="@id/caloriesImg"
+            app:layout_constraintTop_toBottomOf="@id/cassegrain"
+            />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
